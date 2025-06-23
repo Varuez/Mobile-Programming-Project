@@ -1,0 +1,59 @@
+
+📝 CATATAN PUSH/PULL GIT - PROJECT FLUTTER
+=========================================
+
+📂 Lokasi Project Lokal:
+  /d/KULIAH/SEMESTER 4/MOBILE PROGRAMMING (906)/MOBILE PROGRAMMING PROJECT
+
+🌐 GitHub Repository:
+  https://github.com/Varuez/Mobile-Programming-Project.git
+
+-----------------------------------------
+✅ LANGKAH MELAKUKAN PUSH KE GITHUB
+-----------------------------------------
+
+1. Masuk ke folder project:
+   $ cd "/d/KULIAH/SEMESTER 4/MOBILE PROGRAMMING (906)/MOBILE PROGRAMMING PROJECT"
+
+2. Cek status perubahan:
+   $ git status
+
+3. Tambahkan semua perubahan:
+   $ git add .
+
+4. Commit perubahan:
+   $ git commit -m "Update fitur/halaman X"
+
+5. Tarik perubahan terbaru dari GitHub (hindari konflik):
+   $ git pull origin master --rebase
+
+6. Push ke GitHub:
+   $ git push origin master
+
+-----------------------------------------
+❗ SOLUSI JIKA TERJADI ERROR SAAT PUSH
+-----------------------------------------
+
+Jika muncul error:
+  ! [rejected] master -> master (fetch first)
+
+Lakukan ini:
+  $ git pull origin master --rebase
+  $ git push origin master
+
+-----------------------------------------
+🔐 LOGIN GITHUB
+-----------------------------------------
+
+Jika diminta login, gunakan:
+  - Username GitHub
+  - Personal Access Token (jika pakai 2FA, bukan password biasa)
+
+-----------------------------------------
+📌 CATATAN TAMBAHAN
+-----------------------------------------
+
+- Abaikan warning seperti "LF will be replaced by CRLF" (tidak berbahaya).
+- Commit message sebaiknya menjelaskan perubahan.
+- File ini bisa dibuka dengan Notepad atau VSCode.
+
