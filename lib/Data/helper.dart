@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:crud_new1/Data/kpu_model.dart';
+import 'package:mobile_programming_project/Data/kpu_model.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:path/path.dart';
 

@@ -1,4 +1,4 @@
-import 'package:crud_new1/Utils/colors.dart';
+import 'package:mobile_programming_project/Utils/colors.dart';
 import 'package:flutter/material.dart';
 
 class InformasiScreen extends StatefulWidget {

@@ -73,17 +73,19 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const SizedBox(height: 60),
+                const SizedBox(height: 20),
                 Center(
-                  child: Icon(
-                    Icons.lock_outline,
-                    size: 100,
-                    color: Colors.blue,
+                  child: SizedBox(
+                    width: 500,
+                    height: 300,
+                    child: Image.asset('assets/images/login.png'),
                   ),
                 ),
-                const SizedBox(height: 40),
+
+                const SizedBox(height: 20),
+
                 const Text(
-                  'Login Details',
+                  'LOGIN',
                   style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                 ),
                 const SizedBox(height: 20),
@@ -92,12 +94,12 @@ class _LoginPageState extends State<LoginPage> {
                 TextFormField(
                   controller: _emailController,
                   decoration: const InputDecoration(
-                    labelText: 'Username, email & phone number',
+                    labelText: 'Your Email@bsi.ac.id',
                     border: OutlineInputBorder(),
                   ),
                   validator: (value) {
                     if (value == null || value.isEmpty) {
-                      return 'Please enter your email/username';
+                      return 'Please enter your email';
                     }
                     return null;
                   },

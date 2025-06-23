@@ -1,14 +1,14 @@
-// import 'package:crud_new1/Data/helper.dart';
-// import 'package:crud_new1/Screen/home_screen.dart';
+// import 'package:mobile_programming_project/Data/helper.dart';
+// import 'package:mobile_programming_project/Screen/home_screen.dart';
 // import 'package:dotted_border/dotted_border.dart';
 // import 'package:flutter_svg/svg.dart';
 // import 'package:image_picker/image_picker.dart';
 
-import 'package:crud_new1/Data/kpu_model.dart';
-import 'package:crud_new1/Data/helper.dart'; // untuk class DatabaseHelper
-import 'package:crud_new1/Utils/colors.dart';
+import 'package:mobile_programming_project/Data/kpu_model.dart';
+import 'package:mobile_programming_project/Data/helper.dart'; // untuk class DatabaseHelper
+import 'package:mobile_programming_project/Utils/colors.dart';
 import 'package:flutter/material.dart';
-import 'package:crud_new1/Screen/detail_screen.dart';
+import 'package:mobile_programming_project/Screen/detail_screen.dart';
 
 /// Halaman form untuk penambahan data calon pemilih
 class FormScreen extends StatefulWidget {

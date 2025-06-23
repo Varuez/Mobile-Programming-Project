@@ -1,10 +1,10 @@
 // Import library yang dibutuhkan
-import 'dart:io';
-import 'package:crud_new1/Screen/home_screen.dart';
-import 'package:crud_new1/Utils/colors.dart';
-import 'package:dotted_border/dotted_border.dart';
-import 'package:crud_new1/Data/kpu_model.dart';
-import 'package:crud_new1/Screen/form_screen.dart';
+// import 'dart:io';
+// import 'package:dotted_border/dotted_border.dart';
+// import 'package:mobile_programming_project/Screen/form_screen.dart';
+import 'package:mobile_programming_project/Screen/home_screen.dart';
+import 'package:mobile_programming_project/Utils/colors.dart';
+import 'package:mobile_programming_project/Data/kpu_model.dart';
 import 'package:flutter/material.dart';
 
 /// Halaman DetailScreen menampilkan informasi data pemilih yang telah diinput.
@@ -162,26 +162,26 @@ class DetailScreen extends StatelessWidget {
     );
   }
 
-  /// Fungsi ini menampilkan gambar penuh di dalam dialog
-  void _showFullImage(BuildContext context, String imagePath) {
-    showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return Dialog(
-          backgroundColor: Colors.transparent,
-          insetPadding: const EdgeInsets.all(10),
-          child: Container(
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(12),
-              color: Colors.white,
-            ),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(12),
-              child: Image.file(File(imagePath), fit: BoxFit.contain),
-            ),
-          ),
-        );
-      },
-    );
-  }
+  // Fungsi ini menampilkan gambar penuh di dalam dialog
+  // void _showFullImage(BuildContext context, String imagePath) {
+  //   showDialog(
+  //     context: context,
+  //     builder: (BuildContext context) {
+  //       return Dialog(
+  //         backgroundColor: Colors.transparent,
+  //         insetPadding: const EdgeInsets.all(10),
+  //         child: Container(
+  //           decoration: BoxDecoration(
+  //             borderRadius: BorderRadius.circular(12),
+  //             color: Colors.white,
+  //           ),
+  //           child: ClipRRect(
+  //             borderRadius: BorderRadius.circular(12),
+  //             child: Image.file(File(imagePath), fit: BoxFit.contain),
+  //           ),
+  //         ),
+  //       );
+  //     },
+  //   );
+  // }
 }

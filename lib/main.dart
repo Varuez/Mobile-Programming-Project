@@ -3,7 +3,7 @@
 // File utama aplikasi Flutter yang berfungsi sebagai entry point.
 // Menentukan tampilan awal yaitu LoginPage sebelum menuju halaman HomeScreen.
 
-import 'package:crud_new1/Screen/login_page.dart'; // Import halaman login
+import 'package:mobile_programming_project/Screen/login_page.dart'; // Import halaman login
 import 'package:flutter/material.dart'; // Import pustaka UI Flutter
 
 void main() {

@@ -6,13 +6,13 @@
 // - Melihat Data
 // - Logout kembali ke halaman login
 
-import 'package:crud_new1/Screen/form_screen.dart';
-import 'package:crud_new1/Screen/informasi_screen.dart';
-import 'package:crud_new1/Screen/view_data_screen.dart';
-import 'package:crud_new1/Screen/login_page.dart'; // Import LoginPage untuk logout
-import 'package:crud_new1/Utils/colors.dart'; // Warna kustom aplikasi
+import 'package:mobile_programming_project/Screen/form_screen.dart';
+import 'package:mobile_programming_project/Screen/informasi_screen.dart';
+import 'package:mobile_programming_project/Screen/view_data_screen.dart';
+import 'package:mobile_programming_project/Screen/login_page.dart'; // Import LoginPage untuk logout
+import 'package:mobile_programming_project/Utils/colors.dart'; // Warna kustom aplikasi
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart'; // Untuk akses SystemNavigator (opsional)
+// import 'package:flutter/services.dart'; // Untuk akses SystemNavigator (opsional)
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Image.asset('assets/images/kpu_logo.png'),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 40),
 
               // Navigasi ke InformasiScreen
               _buildMenuCard(

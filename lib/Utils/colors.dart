@@ -27,7 +27,7 @@ class AppColors {
   static const Color newblue = Color(0xff2995cc);
   static const Color yellow = Color(0xffFF9500);
 
-//realcount
+  //realcount
   static const Color chart01 = Color(0xffe36771);
   static const Color chart02 = Color(0xff62c5f7);
   static const Color chart03 = Color(0xff1fc927);

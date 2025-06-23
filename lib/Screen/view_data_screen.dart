@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:crud_new1/Data/kpu_model.dart'; // untuk class Pemilih
-import 'package:crud_new1/Data/helper.dart'; // untuk class DatabaseHelper
-import 'package:crud_new1/Utils/colors.dart';
+import 'package:mobile_programming_project/Data/kpu_model.dart'; // untuk class Pemilih
+import 'package:mobile_programming_project/Data/helper.dart'; // untuk class DatabaseHelper
+import 'package:mobile_programming_project/Utils/colors.dart';
 import 'detail_screen.dart';
 
 class ViewDataScreen extends StatefulWidget {
