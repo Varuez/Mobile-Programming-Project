@@ -50,9 +50,9 @@ class _InformasiScreenState extends State<InformasiScreen> {
                     const SizedBox(height: 20),
                     Center(
                       child: SizedBox(
-                        width: 150,
-                        height: 150,
-                        child: Image.asset("assets/images/kpu_logo.png"),
+                        width: 300,
+                        height: 300,
+                        child: Image.asset('assets/images/menu.png'),
                       ),
                     ),
                     const SizedBox(height: 30),

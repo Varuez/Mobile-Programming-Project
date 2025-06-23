@@ -33,12 +33,12 @@ class _HomeScreenState extends State<HomeScreen> {
           padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 25),
           child: Column(
             children: [
-              // Logo KPU
+              // Logo Menu
               Center(
                 child: SizedBox(
-                  width: 100,
-                  height: 100,
-                  child: Image.asset('assets/images/kpu_logo.png'),
+                  width: 300,
+                  height: 300,
+                  child: Image.asset('assets/images/menu.png'),
                 ),
               ),
               const SizedBox(height: 40),
