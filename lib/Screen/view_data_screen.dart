@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_programming_project/Data/kpu_model.dart'; // untuk class Pemilih
 import 'package:mobile_programming_project/Data/helper.dart'; // untuk class DatabaseHelper
+import 'package:mobile_programming_project/Screen/home_screen.dart';
 import 'package:mobile_programming_project/Utils/colors.dart';
 import 'detail_screen.dart';
 
@@ -39,10 +40,11 @@ class _ViewDataScreenState extends State<ViewDataScreen> {
       appBar: AppBar(
         forceMaterialTransparency: true,
         leading: InkWell(
-          highlightColor: Colors.transparent,
-          splashColor: Colors.transparent,
           onTap: () {
-            Navigator.pop(context);
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => HomeScreen()),
+            );
           },
           child: const Icon(
             Icons.arrow_back_ios,

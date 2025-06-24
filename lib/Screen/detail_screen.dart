@@ -5,6 +5,7 @@
 import 'package:mobile_programming_project/Screen/home_screen.dart';
 import 'package:mobile_programming_project/Utils/colors.dart';
 import 'package:mobile_programming_project/Data/kpu_model.dart';
+import 'package:mobile_programming_project/Screen/view_data_screen.dart';
 import 'package:flutter/material.dart';
 
 /// Halaman DetailScreen menampilkan informasi data pemilih yang telah diinput.
@@ -24,7 +25,7 @@ class DetailScreen extends StatelessWidget {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (_) => HomeScreen()),
+              MaterialPageRoute(builder: (_) => ViewDataScreen()),
             );
           },
           child: const Icon(
@@ -155,6 +156,31 @@ class DetailScreen extends StatelessWidget {
               ),
 
               const SizedBox(height: 10),
+              const SizedBox(height: 30),
+
+              Center(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.blue,
+                      foregroundColor: Colors.white,
+                      padding: const EdgeInsets.symmetric(vertical: 15),
+                    ),
+                    onPressed: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const HomeScreen(),
+                        ),
+                      );
+                    },
+                    child: const Text("KEMBALI KE MENU"),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 30),
             ],
           ),
         ),
