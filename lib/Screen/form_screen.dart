@@ -191,10 +191,10 @@ class _FormScreenState extends State<FormScreen> {
                 ],
               ),
 
-              /// Input Tanggal
+              /// Input Tanggal Lahir
               const SizedBox(height: 20),
               const Text(
-                'Tanggal',
+                'Tanggal Lahir',
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               InkWell(
@@ -202,7 +202,7 @@ class _FormScreenState extends State<FormScreen> {
                   DateTime? pickedDate = await showDatePicker(
                     context: context,
                     initialDate: DateTime.now(),
-                    firstDate: DateTime(2000),
+                    firstDate: DateTime(1900),
                     lastDate: DateTime.now(),
                   );
                   if (pickedDate != null) {
